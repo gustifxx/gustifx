@@ -3,11 +3,11 @@
 
 @font-face {
     font-family: 'Moon Heavy';
-    src: url(/fonts/moon_get-Heavy.otf) format('opentype');
+    src: url(./fonts/moon_get-Heavy.otf) format('opentype');
 }
 
 body {
-    background-image: url(../img/Background.png);
+    background-image: url(./img/Background.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -391,4 +391,5 @@ nav {
     }
 
 }
+
 
