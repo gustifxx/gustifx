@@ -15,3 +15,23 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+// Navigation blur effect on scroll
+function initNavBlurEffect() {
+    const nav = document.querySelector('nav');
+    
+    window.addEventListener('scroll', function() {
+        const scrollPosition = window.scrollY;
+        
+        if (scrollPosition > 50) {
+            nav.classList.add('scrolled');
+        } else {
+            nav.classList.remove('scrolled');
+        }
+    });
+}
+
+// Initialize navigation effect
+document.addEventListener('DOMContentLoaded', function() {
+    initNavBlurEffect();
+});
