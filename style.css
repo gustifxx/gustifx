@@ -206,6 +206,8 @@ nav {
 .section-title1 {
     font-size: 75px;
     font-weight: 900;
+    width: fit-content;
+    margin: 0 auto;
     text-align: center;
     font-family: 'DM Sans', sans-serif;
     color: white;
@@ -1539,3 +1541,4 @@ html {
         width: 35px;
     }
 }
+
