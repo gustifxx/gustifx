@@ -14,17 +14,17 @@
 <body>
     <nav>
         <div class="logo">
-            <a href="index.html"><img src="img/Logo.png" alt="Logo"></a>
+            <a href="/"><img src="img/Logo.png" alt="Logo"></a>
         </div>
         <div class="hamburger">
             <span class="bar"></span>
             <span class="bar"></span>
             <span class="bar"></span>
         </div>
-        <ul class="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#commission">Commission</a></li>
+        <ul class="nav-links" id="mainNav">
+            <li><a href="#home" data-target="home">Home</a></li>
+            <li><a href="#portfolio" data-target="portfolio">Portfolio</a></li>
+            <li><a href="#commission" data-target="commission">Commission</a></li>
         </ul>
     </nav>
 
@@ -36,7 +36,8 @@
             <a href="#portfolio" class="btn">Explore My Work</a>
         </div>
     </section>
-
+    
+    <!-- Halaman 2: Portfolio -->
     <section id="portfolio" class="page-section">
         <div class="section-content">
             <h2 class="section-title1">Past Work </h2>
@@ -70,6 +71,7 @@
         </div>
     </section>
 
+    <!-- Halaman 3: Partners -->
     <section id="partners" class="page-section1">
         <div class="section-content1">
             <h2 class="section-title2">Part Of</h2>
@@ -213,4 +215,3 @@
 <script src="js/navigation.js"></script>
 <script src="js/script.js"></script>
 </html>
-
