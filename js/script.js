@@ -36,3 +36,22 @@ document.addEventListener('DOMContentLoaded', function() {
     initNavBlurEffect();
 });
 
+document.getElementById('mainNav').addEventListener('click', function(e) {
+    if (e.target.tagName === 'A' && e.target.hasAttribute('data-target')) {
+        e.preventDefault();
+        
+        const targetId = e.target.getAttribute('data-target');
+        const section = document.getElementById(targetId);
+        
+        if (section) {
+            // Optional: Add active class management
+            document.querySelectorAll('.nav-links a').forEach(a => {
+                a.classList.remove('active');
+            });
+            e.target.classList.add('active');
+            
+            // Scroll to section
+            section.scrollIntoView({ behavior: 'smooth' });
+        }
+    }
+});
