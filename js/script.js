@@ -35,3 +35,4 @@ function initNavBlurEffect() {
 document.addEventListener('DOMContentLoaded', function() {
     initNavBlurEffect();
 });
+
