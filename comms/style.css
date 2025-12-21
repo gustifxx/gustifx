@@ -20,7 +20,7 @@ html, body {
 }
 
 body {
-    background-image: url(/img/BgComms.png);
+    background-image: url(../img/BgComms.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1261,4 +1261,5 @@ html {
     .card.active {
         animation: none !important;
     }
+
 }
